@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practicejs.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="main-container">
+
+            <H1>Tip Calculator</H1>
+            <p>How much was your bill?</p>
+            <input type="text" name="bill" id="bill">
+            <p>How was your service?<p>
+                    <select name="survey" id="survey">
+                        <option value="30">30% - Excelent</option>
+                        <option value="20">20% - Good</option>
+                        <option value="10">10% - Could be better</option>
+                        <option value="5">5% - Terrible</option>
+                    </select>
+
+                    <p>How many peaople are sharing the bill?</p>
+                    <input type="text" id="people" name="people">
+
+
+                    <div>
+                        <button id="button">Calculate</button>
+                        <p id="tip">Tip amount</p>
+                        <span id="result">0</span>
+                        <span id="each">each</span>
+                    </div>
+                
+        </div>
+    </div>
+    
+    <script src="practicejs.js"></script>
+</body>
+
+</html>
